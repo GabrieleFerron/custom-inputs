@@ -1,0 +1,77 @@
+.form-control-custom{
+    box-shadow: none;
+    background-color: transparent;
+    padding: 5px;
+    font-size: 18px;
+    border-bottom: 1px solid #878787;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+  
+    transition: .3s
+  }
+  
+  .form-control-custom:focus{
+    font-size: 20px;
+    outline: none;
+    border-bottom: 1px solid #4f4f4f;
+    background-color: #f0f0f05c;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+  }
+  
+  .form-control-custom.ng-invalid.ng-touched{
+    outline: none;
+    border-bottom: 1px solid red;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background-color: rgba(255, 0, 0, 0.349);
+  }
+  
+  .form-select-custom{
+    width: 100%;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    border-bottom: 1px solid #878787;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    transition: .3s;
+  }
+  
+  .form-select-custom:focus{
+    outline: none;
+    background-color: #f0f0f05c;
+    border-bottom: 1px solid #4f4f4f;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+  }
+  
+  .form-textarea-custom{
+    width: 100%;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    border-bottom: 1px solid #878787;
+    border-right: 1px solid #878787;
+    border-top: transparent;
+    border-left: transparent;
+  }
+  
+  .form-textarea-custom:focus{
+    outline: none;
+    background-color: #f0f0f05c;
+    border-bottom: 1px solid #4f4f4f;
+    border-right: 1px solid #4f4f4f;
+    border-top: transparent;
+    border-left: transparent;
+  }
+  
